@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
                 int id = checkUser(new User(name,password));
 
                 if(id==-1){
-                    Snackbar.make(v,"User" +name+ "does not exist",Snackbar.LENGTH_LONG).show();
+                    Snackbar.make(v,"User" +name+ "doesn't exist",Snackbar.LENGTH_LONG).show();
                 }
                 else{
                     Snackbar.make(v,"User" +name+ "exists",Snackbar.LENGTH_LONG).show();
